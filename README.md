@@ -47,10 +47,10 @@ Após isso, deverá receber uma mensagem no terminal informando que a substitui�
 
 Caso ocorra algum erro, verifique se o arquivo ```url.sh``` possui permissão de execução (chmod +x) ou se você fez o ```git clone``` corretamente do repositório ```lafepe-frontend```.
 
-Obs: Considerando que você está na pasta ```lafepe-docker```, o caminho até o arquivo ```axios.js``` deve ser: 
+Obs: Considerando que você está na pasta ```lafepe-docker```, você pode visualizar o conteúdo do arquivo ```axios.js``` e checar se o IP do seu servidor está presente no arquivo: 
 
 ```
-./lafepe-frontend/src/services/axios.js
+cat ./lafepe-frontend/src/services/axios.js
 ```
 
 ## Para rodar os containers
